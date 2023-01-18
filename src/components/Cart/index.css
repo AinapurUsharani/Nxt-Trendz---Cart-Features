@@ -1,0 +1,93 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+.heading {
+  color: blue;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  align-self: flex-end;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+}
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+.summary-para-1 {
+  font-family: 'Roboto';
+  color: #616e7c;
+  font-size: 16px;
+  line-height: 0;
+}
+.summary-span {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: 0;
+}
+.summary-para-2 {
+  font-family: 'Roboto';
+  color: #616e7c;
+  font-size: 10px;
+  margin-top: 0;
+  line-height: 0;
+}
+
+.checkOut {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
